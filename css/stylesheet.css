@@ -1,0 +1,106 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+color:#c85313;
+text-align: center;
+padding-top: 150px;
+font-family: 'Merriweather', serif;
+font-size: 56px;
+}
+
+a,h4{
+  color:#B3490E;
+}
+
+a:hover,h4:hover{
+  color: #FF6814;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  min-height: 400px;
+  background-image: url('../img/header_pic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+hr{
+  text-align: center;
+  width: 95%;
+}
+hr.vertical
+{
+   width: 0px;
+   height: 95%; /* or height in PX */
+}
+.divider{
+  text-align: center;
+  width: 35%;
+}
+#overview{
+  padding: 15px 30px;
+  height: auto;
+  overflow: auto;
+}
+
+#overview p{
+  font-size: 15px;
+  line-height: 1.4em;
+}
+#news{
+padding: 0 30px;
+}
+
+#map{
+   width: 92%;
+   height: 400px;
+   display: block;
+   margin: 0 auto;
+}
+h3{
+  font-weight: 300;
+  padding-left: 30px;
+}
+#nytimes img{
+  max-width: 300px;
+  height: auto;
+}
+
+.tweettime, .tweetlocation{
+  display: inline;
+  font-size: 12px;
+  color:cecece;
+  margin-right: 20px;
+}
+.tweet{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#twitter .user img {
+display: inline;
+border-radius: 50%;
+}
+#twitter .user p {
+display: inline;
+font-weight: 400;
+font-size: 16px;
+padding-left: 10px;
+color:#000;
+}
+#map-wrap p{
+  text-align: center;
+}
+.news_sub{
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 300;
+  color:#A8A8A8;
+  text-align: left;
+}
+.figure img{
+  margin-top: -10px;
+  max-width: 274px;
+  height: auto;
+  padding-bottom: 10px;
+}
